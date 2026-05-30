@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "dataset": "gaussian_mixture_8d",
+      "model": "vae",
+      "mmd": 0.391388073161149,
+      "sliced_wasserstein": 1.770986403886139,
+      "chamfer": 4.446350991206,
+      "kde_nll": 22.296288322214657,
+      "mode_coverage": 0.0,
+      "train_time_sec": 0.29456029999710154,
+      "sample_time_sec": 0.002429599997412879
+    },
+    {
+      "dataset": "gaussian_mixture_8d",
+      "model": "diffusion",
+      "mmd": 0.3835360155709484,
+      "sliced_wasserstein": 1.7393964413747935,
+      "chamfer": 4.877221271214472,
+      "kde_nll": 23.566098062362205,
+      "mode_coverage": 0.0,
+      "train_time_sec": 0.06682960000034655,
+      "sample_time_sec": 0.006165200000395998,
+      "sampler": "ddim",
+      "sampling_steps": 5
+    }
+  ]
+}

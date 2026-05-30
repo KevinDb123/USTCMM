@@ -1,0 +1,8 @@
+{
+  "mmd": 0.0028330924501007715,
+  "sliced_wasserstein": 0.09558199315250188,
+  "mode_coverage": 1.0,
+  "train_time_sec": 4.614531200000783,
+  "sample_time_sec": 0.009996400003728922,
+  "contamination_ratio": 0.0
+}
