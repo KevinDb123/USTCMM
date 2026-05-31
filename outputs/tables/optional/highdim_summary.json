@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "dataset": "gaussian_mixture_8d",
+      "model": "vae",
+      "mmd": 0.0043057418068883635,
+      "sliced_wasserstein": 0.22342938070224588,
+      "chamfer": 0.48210989345380706,
+      "kde_nll": 23.005475989827257,
+      "mode_coverage": 1.0,
+      "train_time_sec": 4.979874000004202,
+      "sample_time_sec": 0.001976900006411597
+    },
+    {
+      "dataset": "gaussian_mixture_8d",
+      "model": "diffusion",
+      "mmd": 0.04673168671038197,
+      "sliced_wasserstein": 0.5773488207843015,
+      "chamfer": 0.5776948434953835,
+      "kde_nll": 22.564484689161517,
+      "mode_coverage": 1.0,
+      "train_time_sec": 6.377979500000947,
+      "sample_time_sec": 0.05381659999693511,
+      "sampler": "ddpm",
+      "sampling_steps": 80
+    },
+    {
+      "dataset": "spiral_8d",
+      "model": "vae",
+      "mmd": 0.0032368556509434487,
+      "sliced_wasserstein": 0.11064000859245855,
+      "chamfer": 0.4124283493277575,
+      "kde_nll": 19.074721230290546,
+      "mode_coverage": 1.0,
+      "train_time_sec": 4.775808800004597,
+      "sample_time_sec": 0.0008640000014565885
+    },
+    {
+      "dataset": "spiral_8d",
+      "model": "diffusion",
+      "mmd": 0.09882705793241064,
+      "sliced_wasserstein": 0.54427244343517,
+      "chamfer": 0.4394541650429145,
+      "kde_nll": 16.84630189155521,
+      "mode_coverage": 1.0,
+      "train_time_sec": 6.35056330000225,
+      "sample_time_sec": 0.056300299998838454,
+      "sampler": "ddpm",
+      "sampling_steps": 80
+    }
+  ]
+}

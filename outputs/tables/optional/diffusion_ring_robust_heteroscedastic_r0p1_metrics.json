@@ -1,0 +1,13 @@
+{
+  "mmd": 0.002029360963834659,
+  "sliced_wasserstein": 0.1271657092230971,
+  "chamfer": 0.09150738346100779,
+  "kde_nll": 4.468323632054818,
+  "mode_coverage": 1.0,
+  "train_time_sec": 2.738210000003164,
+  "sample_time_sec": 0.013337300006242003,
+  "contamination_ratio": 0.1,
+  "contamination_kind": "heteroscedastic",
+  "sampler": "ddim",
+  "sampling_steps": 20
+}
