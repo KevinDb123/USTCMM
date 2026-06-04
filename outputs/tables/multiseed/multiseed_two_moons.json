@@ -1,0 +1,267 @@
+[
+  {
+    "model_type": "vae",
+    "dataset": "two_moons",
+    "seed": 42,
+    "metrics": {
+      "mmd": 0.0016502585057789343,
+      "sliced_wasserstein": 0.09402666361827736,
+      "chamfer": 0.07540957983388741,
+      "kde_nll": 3.7378838765892586,
+      "gmm_nll": 2.9230688422472326,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.0989617389996056,
+      "sample_time_sec": 0.00019282600078440737,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "vae",
+    "dataset": "two_moons",
+    "seed": 123,
+    "metrics": {
+      "mmd": 0.0009501223973760187,
+      "sliced_wasserstein": 0.07758458313068758,
+      "chamfer": 0.07328055457098584,
+      "kde_nll": 3.7484826664409554,
+      "gmm_nll": 3.2324856810732805,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.13266700999975,
+      "sample_time_sec": 0.00019530000008671777,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "vae",
+    "dataset": "two_moons",
+    "seed": 456,
+    "metrics": {
+      "mmd": 0.001232264089998436,
+      "sliced_wasserstein": 0.07929513593703483,
+      "chamfer": 0.07693549603462203,
+      "kde_nll": 3.7270930376331917,
+      "gmm_nll": 3.307043602302021,
+      "mode_coverage": 1.0,
+      "train_time_sec": 1.8658259530002397,
+      "sample_time_sec": 0.0001960419995157281,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "vae",
+    "dataset": "two_moons",
+    "seed": 789,
+    "metrics": {
+      "mmd": 0.002019597657935135,
+      "sliced_wasserstein": 0.0909893923764223,
+      "chamfer": 0.07004556536986745,
+      "kde_nll": 3.7240320967875595,
+      "gmm_nll": 3.3171066445392894,
+      "mode_coverage": 1.0,
+      "train_time_sec": 1.8721610339998733,
+      "sample_time_sec": 0.00020605200006684754,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "vae",
+    "dataset": "two_moons",
+    "seed": 1024,
+    "metrics": {
+      "mmd": 0.0019043140910413037,
+      "sliced_wasserstein": 0.09607029842170092,
+      "chamfer": 0.07676330707070492,
+      "kde_nll": 3.7413432391155568,
+      "gmm_nll": 2.752719690027666,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.054575004999606,
+      "sample_time_sec": 0.00020659900019381894,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "diffusion",
+    "dataset": "two_moons",
+    "seed": 42,
+    "metrics": {
+      "mmd": 0.006590851807003473,
+      "sliced_wasserstein": 0.1483785662341826,
+      "chamfer": 0.04900417515519709,
+      "kde_nll": 3.7472239461106445,
+      "gmm_nll": 2.316505237701167,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.504507526999987,
+      "sample_time_sec": 0.014030575000106182,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform",
+      "sampler": "ddpm",
+      "sampling_steps": 80.0
+    }
+  },
+  {
+    "model_type": "diffusion",
+    "dataset": "two_moons",
+    "seed": 123,
+    "metrics": {
+      "mmd": 0.0029737437061243543,
+      "sliced_wasserstein": 0.10897824313970714,
+      "chamfer": 0.0507399328166396,
+      "kde_nll": 3.7660118430205256,
+      "gmm_nll": 2.3467285176140664,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.2843939570002476,
+      "sample_time_sec": 0.013688934000128938,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform",
+      "sampler": "ddpm",
+      "sampling_steps": 80.0
+    }
+  },
+  {
+    "model_type": "diffusion",
+    "dataset": "two_moons",
+    "seed": 456,
+    "metrics": {
+      "mmd": 0.0037987185790429034,
+      "sliced_wasserstein": 0.11788800632697191,
+      "chamfer": 0.04868700591001324,
+      "kde_nll": 3.7455824562856592,
+      "gmm_nll": 2.2561181730403232,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.2849276850001843,
+      "sample_time_sec": 0.013732493999668804,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform",
+      "sampler": "ddpm",
+      "sampling_steps": 80.0
+    }
+  },
+  {
+    "model_type": "diffusion",
+    "dataset": "two_moons",
+    "seed": 789,
+    "metrics": {
+      "mmd": 0.005113065101062464,
+      "sliced_wasserstein": 0.12480414052023517,
+      "chamfer": 0.05029636485380852,
+      "kde_nll": 3.714331881547444,
+      "gmm_nll": 2.290957779659161,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.275030533000063,
+      "sample_time_sec": 0.01353527499941265,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform",
+      "sampler": "ddpm",
+      "sampling_steps": 80.0
+    }
+  },
+  {
+    "model_type": "diffusion",
+    "dataset": "two_moons",
+    "seed": 1024,
+    "metrics": {
+      "mmd": 0.004124542243939544,
+      "sliced_wasserstein": 0.1029010967921825,
+      "chamfer": 0.04972637301052428,
+      "kde_nll": 3.7042896872681452,
+      "gmm_nll": 2.270716438862679,
+      "mode_coverage": 1.0,
+      "train_time_sec": 2.731999880999865,
+      "sample_time_sec": 0.013899526000386686,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform",
+      "sampler": "ddpm",
+      "sampling_steps": 80.0
+    }
+  },
+  {
+    "model_type": "flow",
+    "dataset": "two_moons",
+    "seed": 42,
+    "metrics": {
+      "mmd": 0.0002884073731328485,
+      "sliced_wasserstein": 0.03833492191062407,
+      "chamfer": 0.04503237880626577,
+      "kde_nll": 3.797307025075235,
+      "gmm_nll": 2.2057853877863374,
+      "mode_coverage": 1.0,
+      "train_time_sec": 18.827545948999614,
+      "sample_time_sec": 0.0020455540006878437,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "flow",
+    "dataset": "two_moons",
+    "seed": 123,
+    "metrics": {
+      "mmd": 0.0006597018042691083,
+      "sliced_wasserstein": 0.05864973061774042,
+      "chamfer": 0.04599175527266928,
+      "kde_nll": 3.810289921472704,
+      "gmm_nll": 2.219579457178257,
+      "mode_coverage": 1.0,
+      "train_time_sec": 18.259878820999802,
+      "sample_time_sec": 0.0019843999998556683,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "flow",
+    "dataset": "two_moons",
+    "seed": 456,
+    "metrics": {
+      "mmd": 0.0002388042854108985,
+      "sliced_wasserstein": 0.039705168440252125,
+      "chamfer": 0.045457880033328506,
+      "kde_nll": 3.7926262080388455,
+      "gmm_nll": 2.251123662762735,
+      "mode_coverage": 1.0,
+      "train_time_sec": 18.678307607000534,
+      "sample_time_sec": 0.0020137880001129815,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "flow",
+    "dataset": "two_moons",
+    "seed": 789,
+    "metrics": {
+      "mmd": 3.222258751978124e-05,
+      "sliced_wasserstein": 0.026017394765109766,
+      "chamfer": 0.043358346977674045,
+      "kde_nll": 3.781589662606944,
+      "gmm_nll": 2.2153544052114023,
+      "mode_coverage": 1.0,
+      "train_time_sec": 19.03320108800017,
+      "sample_time_sec": 0.0020435799997358117,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  },
+  {
+    "model_type": "flow",
+    "dataset": "two_moons",
+    "seed": 1024,
+    "metrics": {
+      "mmd": 7.74884977863266e-05,
+      "sliced_wasserstein": 0.02820232836609657,
+      "chamfer": 0.04564085143665273,
+      "kde_nll": 3.787996885859431,
+      "gmm_nll": 2.2854942732368575,
+      "mode_coverage": 1.0,
+      "train_time_sec": 19.01270921000014,
+      "sample_time_sec": 0.0020826499994655023,
+      "contamination_ratio": 0.0,
+      "contamination_kind": "uniform"
+    }
+  }
+]
