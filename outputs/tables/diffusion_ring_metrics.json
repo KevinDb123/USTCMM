@@ -1,8 +1,13 @@
 {
+  "model": "diffusion",
+  "dataset": "ring",
   "mmd": 0.0008472770909393468,
   "sliced_wasserstein": 0.09086886526801909,
   "mode_coverage": 1.0,
   "train_time_sec": 3.9372176000033505,
   "sample_time_sec": 0.03929230000358075,
-  "contamination_ratio": 0.0
+  "contamination_ratio": 0.0,
+  "chamfer": 0.29670292906903506,
+  "kde_nll": 4.787015553919142,
+  "gmm_nll": 3.8050444855114205
 }

@@ -1,4 +1,7 @@
 {
+  "model": "vae",
+  "dataset": "two_moons",
+  "seed": 789,
   "mmd": 0.002019597657935135,
   "sliced_wasserstein": 0.0909893923764223,
   "chamfer": 0.07004556536986745,

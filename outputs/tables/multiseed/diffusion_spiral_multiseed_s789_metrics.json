@@ -1,4 +1,7 @@
 {
+  "model": "diffusion",
+  "dataset": "spiral",
+  "seed": 789,
   "mmd": 0.000964695908510782,
   "sliced_wasserstein": 0.08618822191093495,
   "chamfer": 0.09336169773158695,

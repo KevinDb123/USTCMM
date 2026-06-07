@@ -1,8 +1,13 @@
 {
+  "model": "vae",
+  "dataset": "two_moons",
   "mmd": 0.0016624279812833542,
   "sliced_wasserstein": 0.10414856392134798,
   "mode_coverage": 1.0,
   "train_time_sec": 3.3577332999993814,
   "sample_time_sec": 0.00033480000274721533,
-  "contamination_ratio": 0.0
+  "contamination_ratio": 0.0,
+  "chamfer": 0.16673499090782262,
+  "kde_nll": 3.6564202951577927,
+  "gmm_nll": 4.19927611994801
 }

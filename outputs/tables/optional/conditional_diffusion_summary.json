@@ -1,11 +1,9 @@
 {
-  "mmd": 0.004346057392675351,
-  "sliced_wasserstein": 0.13514448150996303,
-  "chamfer": 0.0610517907034992,
-  "kde_nll": 4.173169869918195,
-  "mode_coverage": 1.0,
-  "train_time_sec": 16.42550659999688,
-  "sample_time_sec": 0.056116100000508595,
-  "sampler": "ddim",
-  "sampling_steps": 20
+  "model": "conditional_diffusion",
+  "mmd": 0.004051615446458989,
+  "sliced_wasserstein": 0.13293642931083127,
+  "chamfer": 0.06104514109003925,
+  "kde_nll": 4.178623207712636,
+  "gmm_nll": 2.6606370433583706,
+  "mode_coverage": 1.0
 }

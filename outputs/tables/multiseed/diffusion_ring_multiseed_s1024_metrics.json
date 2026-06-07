@@ -1,4 +1,7 @@
 {
+  "model": "diffusion",
+  "dataset": "ring",
+  "seed": 1024,
   "mmd": 0.0005048933313094306,
   "sliced_wasserstein": 0.06503832820725301,
   "chamfer": 0.043463947999023256,

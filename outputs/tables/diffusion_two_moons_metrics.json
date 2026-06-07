@@ -1,8 +1,13 @@
 {
+  "model": "diffusion",
+  "dataset": "two_moons",
   "mmd": 0.005696444832212322,
   "sliced_wasserstein": 0.14497507390843484,
   "mode_coverage": 1.0,
   "train_time_sec": 4.170118800000637,
   "sample_time_sec": 0.03670360000251094,
-  "contamination_ratio": 0.0
+  "contamination_ratio": 0.0,
+  "chamfer": 0.1400025669244409,
+  "kde_nll": 3.513417746936165,
+  "gmm_nll": 3.84495875158122
 }

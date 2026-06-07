@@ -1,4 +1,7 @@
 {
+  "model": "vae",
+  "dataset": "spiral",
+  "seed": 789,
   "mmd": 0.0015157603109758888,
   "sliced_wasserstein": 0.08254457103096063,
   "chamfer": 0.08948788949409858,

@@ -1,4 +1,7 @@
 {
+  "model": "vae",
+  "dataset": "gaussian_mixture",
+  "seed": 1024,
   "mmd": 0.0010745668833551658,
   "sliced_wasserstein": 0.12013807160102963,
   "chamfer": 0.08793757108677638,

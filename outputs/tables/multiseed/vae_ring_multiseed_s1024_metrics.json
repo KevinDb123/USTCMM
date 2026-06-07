@@ -1,4 +1,7 @@
 {
+  "model": "vae",
+  "dataset": "ring",
+  "seed": 1024,
   "mmd": 0.0013017022115806576,
   "sliced_wasserstein": 0.10221328699365623,
   "chamfer": 0.06522858652036773,

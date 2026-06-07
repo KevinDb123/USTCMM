@@ -1,8 +1,13 @@
 {
+  "model": "diffusion",
+  "dataset": "spiral",
   "mmd": 0.0007552515857676134,
   "sliced_wasserstein": 0.06825077611661351,
   "mode_coverage": 1.0,
   "train_time_sec": 3.9864576999971177,
   "sample_time_sec": 0.039659000001847744,
-  "contamination_ratio": 0.0
+  "contamination_ratio": 0.0,
+  "chamfer": 0.10145781194493177,
+  "kde_nll": 3.583269762473629,
+  "gmm_nll": 3.383931257089965
 }

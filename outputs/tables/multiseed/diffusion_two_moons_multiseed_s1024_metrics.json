@@ -1,4 +1,7 @@
 {
+  "model": "diffusion",
+  "dataset": "two_moons",
+  "seed": 1024,
   "mmd": 0.004124542243939544,
   "sliced_wasserstein": 0.1029010967921825,
   "chamfer": 0.04972637301052428,

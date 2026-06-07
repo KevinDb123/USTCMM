@@ -1,7 +1,9 @@
 {
-  "mmd": 0.002216767451037105,
-  "sliced_wasserstein": 0.12047161643794019,
-  "mode_coverage": 1.0,
-  "train_time_sec": 18.65783779999765,
-  "sample_time_sec": 0.004166900005657226
+  "model": "cvae",
+  "mmd": 0.0015662708247098367,
+  "sliced_wasserstein": 0.10332748753081844,
+  "chamfer": 0.08253605398514327,
+  "kde_nll": 4.193603509835109,
+  "gmm_nll": 2.818410310171746,
+  "mode_coverage": 1.0
 }

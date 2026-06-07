@@ -1,8 +1,13 @@
 {
+  "model": "vae",
+  "dataset": "gaussian_mixture",
   "mmd": 0.0014795415844883752,
   "sliced_wasserstein": 0.17323961960052298,
   "mode_coverage": 1.0,
   "train_time_sec": 3.5826230000020587,
   "sample_time_sec": 0.0011528000031830743,
-  "contamination_ratio": 0.0
+  "contamination_ratio": 0.0,
+  "chamfer": 0.3677921681894747,
+  "kde_nll": 4.906905967277295,
+  "gmm_nll": 3.7869112029001037
 }

@@ -1,4 +1,7 @@
 {
+  "model": "diffusion",
+  "dataset": "gaussian_mixture",
+  "seed": 123,
   "mmd": 0.0014481579902807518,
   "sliced_wasserstein": 0.12385098087334487,
   "chamfer": 0.03824154614274319,
