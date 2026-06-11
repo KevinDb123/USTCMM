@@ -1,13 +1,12 @@
 {
-  "model": "vae",
-  "dataset": "two_moons",
-  "mmd": 0.0016624279812833542,
-  "sliced_wasserstein": 0.10414856392134798,
+  "mmd": 0.0016502539865810295,
+  "sliced_wasserstein": 0.09402660677820751,
+  "chamfer": 0.07540963499524544,
+  "kde_nll": 3.7378839026993056,
+  "gmm_nll": 2.9230688522115362,
   "mode_coverage": 1.0,
-  "train_time_sec": 3.3577332999993814,
-  "sample_time_sec": 0.00033480000274721533,
+  "train_time_sec": 5.399033699999563,
+  "sample_time_sec": 0.0004394999996293336,
   "contamination_ratio": 0.0,
-  "chamfer": 0.16673499090782262,
-  "kde_nll": 3.6564202951577927,
-  "gmm_nll": 4.19927611994801
+  "contamination_kind": "uniform"
 }

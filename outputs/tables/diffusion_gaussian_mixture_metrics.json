@@ -1,13 +1,14 @@
 {
-  "model": "diffusion",
-  "dataset": "gaussian_mixture",
-  "mmd": 0.0017286696772595977,
-  "sliced_wasserstein": 0.1413697677519517,
+  "mmd": 0.00013403237494080678,
+  "sliced_wasserstein": 0.07101490791777249,
+  "chamfer": 0.03885479848467102,
+  "kde_nll": 4.876518936582252,
+  "gmm_nll": 2.175050087296069,
   "mode_coverage": 1.0,
-  "train_time_sec": 4.176235700004327,
-  "sample_time_sec": 0.04071210000256542,
+  "train_time_sec": 5.0726141999984975,
+  "sample_time_sec": 0.04452490000403486,
   "contamination_ratio": 0.0,
-  "chamfer": 1.2016937620877268,
-  "kde_nll": 4.189944996757795,
-  "gmm_nll": 18.433627613174018
+  "contamination_kind": "uniform",
+  "sampler": "ddpm",
+  "sampling_steps": 80
 }

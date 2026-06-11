@@ -1,13 +1,12 @@
 {
-  "model": "vae",
-  "dataset": "ring",
-  "mmd": 0.0018772682268071161,
-  "sliced_wasserstein": 0.11773393035961041,
+  "mmd": 0.0011993413308775125,
+  "sliced_wasserstein": 0.09827918233960585,
+  "chamfer": 0.07396250901957578,
+  "kde_nll": 4.479378714219873,
+  "gmm_nll": 2.667365384707778,
   "mode_coverage": 1.0,
-  "train_time_sec": 3.1982773000054294,
-  "sample_time_sec": 0.00035900000511901453,
+  "train_time_sec": 4.593924499997229,
+  "sample_time_sec": 0.0009662999946158379,
   "contamination_ratio": 0.0,
-  "chamfer": 0.25704839372756844,
-  "kde_nll": 4.486093002641483,
-  "gmm_nll": 3.403438177047804
+  "contamination_kind": "uniform"
 }

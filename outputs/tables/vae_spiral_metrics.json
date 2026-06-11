@@ -1,13 +1,12 @@
 {
-  "model": "vae",
-  "dataset": "spiral",
-  "mmd": 0.0014983070860896675,
-  "sliced_wasserstein": 0.07469942462281437,
+  "mmd": 0.0018285171972229897,
+  "sliced_wasserstein": 0.08751837513676625,
+  "chamfer": 0.08892563735693773,
+  "kde_nll": 3.680339416790737,
+  "gmm_nll": 3.074107604697615,
   "mode_coverage": 1.0,
-  "train_time_sec": 3.2380368999947677,
-  "sample_time_sec": 0.00044039999920642003,
+  "train_time_sec": 5.159642899998289,
+  "sample_time_sec": 0.0004288000054657459,
   "contamination_ratio": 0.0,
-  "chamfer": 0.10215597286453978,
-  "kde_nll": 3.5507172753598506,
-  "gmm_nll": 3.2046373823658834
+  "contamination_kind": "uniform"
 }

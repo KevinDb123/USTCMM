@@ -1,13 +1,14 @@
 {
-  "model": "diffusion",
-  "dataset": "ring",
-  "mmd": 0.0008472770909393468,
-  "sliced_wasserstein": 0.09086886526801909,
+  "mmd": 0.0012316784957464577,
+  "sliced_wasserstein": 0.10763375073605361,
+  "chamfer": 0.046069980630395885,
+  "kde_nll": 4.531570522584752,
+  "gmm_nll": 2.451178576574687,
   "mode_coverage": 1.0,
-  "train_time_sec": 3.9372176000033505,
-  "sample_time_sec": 0.03929230000358075,
+  "train_time_sec": 5.6469881999946665,
+  "sample_time_sec": 0.055416900002455804,
   "contamination_ratio": 0.0,
-  "chamfer": 0.29670292906903506,
-  "kde_nll": 4.787015553919142,
-  "gmm_nll": 3.8050444855114205
+  "contamination_kind": "uniform",
+  "sampler": "ddpm",
+  "sampling_steps": 80
 }
